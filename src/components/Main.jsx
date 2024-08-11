@@ -1,4 +1,4 @@
-import Card from "./Card";
+import CardList from "./CardList";
 
 const Main = () => {
     return (
@@ -23,9 +23,7 @@ const Main = () => {
                 </p>
             </div>
             </div>
-            <Card/>
-            <Card/>
-            <Card/>
+            <CardList/>
         </div>
     )
 }

@@ -18,6 +18,11 @@ button {
     cursor: pointer;
 }
 
+.Header svg {
+    position: relative;
+    left: 10px;
+}
+
 .container {
     text-align: center;
     width: 75%;
@@ -60,6 +65,12 @@ button {
     font-family: 'Poppins';
     position: relative;
     left: 4em;
+}
+
+.statistics {
+    position: relative;
+    left: 15%;
+    top: 20px;
 }
 
 .signup {
@@ -128,4 +139,34 @@ button {
     position: relative;
     top: 0.5em;
     width: 92%;
+}
+
+.card-title {
+    padding-top: 2em;
+}
+
+.Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(0, 0%, 75%);
+    width: 75%;
+    position: relative;
+    left: 10%;
+    margin-top: 5em;
+    border-radius: 5px;
+}
+
+.card-txt {
+    width: 70%;
+}
+
+.Card svg {
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    top: -40px;
 }
