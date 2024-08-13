@@ -18,6 +18,14 @@ button {
     cursor: pointer;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    color: hsl(255, 11%, 22%);
+}
+
+p {
+    color: hsl(257, 7%, 50%);
+}
+
 .Header svg {
     position: relative;
     left: 10px;
@@ -31,6 +39,10 @@ button {
 .para {
     width: 80%;
     padding-left: 3em;
+}
+
+.para, .stat-para {
+    color: hsl(257, 7%, 30%);
 }
 
 .get-started {
@@ -164,9 +176,36 @@ button {
 }
 
 .Card svg {
-    background-color: hsl(257, 27%, 26%);
     border-radius: 50%;
     padding: 15px;
     position: absolute;
     top: -40px;
+}
+
+.boost-lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    margin: 4em 0;
+    position: absolute;
+    left: 0;
+}
+
+.boost-lower h3 {
+    color: #fff;
+}
+
+.boost-btn {
+    margin-bottom: 45px;
+    position: relative;
+    top: 0.3em;
+    border: none;
+    border-radius: 20px;
+    padding: 0.65em 1em;
+}
+
+.Card svg, .boost-lower {
+    background-color: hsl(257, 27%, 26%);
 }

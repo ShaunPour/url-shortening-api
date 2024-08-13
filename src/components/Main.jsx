@@ -24,6 +24,10 @@ const Main = () => {
             </div>
             </div>
             <CardList/>
+            <div className="boost-lower">
+                <h3 className="title-lower">Boost your links today</h3>
+                <button className="boost-btn">Get Started</button>
+            </div>
         </div>
     )
 }
